@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: clearpath-resume-analyzer
-    runtime: python
-    plan: free
-    buildCommand: echo "No third-party packages to install"
-    startCommand: python app.py
